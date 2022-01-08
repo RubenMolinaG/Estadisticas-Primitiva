@@ -82,6 +82,19 @@ def dibujar_grafica(anillo_externo: dict, anillo_medio: dict, anillo_interno: di
     plt.legend(['Anillo Exterior', 'Anillo Medio', 'Anillo Interior'])
     plt.show()
 
+# Dibujar la gráfica del porcentaje de aparición de cada uno de los anillos:
+def dibujar_grafica_porcentaje(anillo_externo: int, anillo_medio: int, anillo_interno: int):
+    plt.bar('Anillo Externo', anillo_externo)
+    plt.bar('Anillo Medio', anillo_medio)
+    plt.bar('Anillo Interno', anillo_interno)
+    plt.yticks(list(range(0, 100, 5)))
+
+    plt.title('% de Aparición Números de cada Anillo.')
+    plt.ylabel('% de Aparición')
+    plt.grid('on')
+
+    plt.show()
+    plt.savefig('Porcentaje_Aparicion_Anillos_Primitiva.png')
 
 # Función Principal:
 def main():
@@ -101,7 +114,27 @@ def main():
     diccionario_anillo_interno  = rellenar_diccionarios(diccionario_anillo_interno)
     
     # Dibujamos la gráfica:
-    dibujar_grafica(diccionario_anillo_externo, diccionario_anillo_medio, diccionario_anillo_interno)
+    #dibujar_grafica(diccionario_anillo_externo, diccionario_anillo_medio, diccionario_anillo_interno)
 
+    # Calculamos los porcentajes de aparición de cada uno de los anillos:
+    total_anillo_externo, total_anillo_medio, total_anillo_interno, total_general = 0, 0, 0, 0
+    for apariciones in diccionario_anillo_externo.values():
+        total_anillo_externo += apariciones
+        total_general += apariciones
+    for apariciones in diccionario_anillo_medio.values():
+        total_anillo_medio += apariciones
+        total_general += apariciones
+    for apariciones in diccionario_anillo_interno.values():
+        total_anillo_interno += apariciones
+        total_general += apariciones
+
+    porcentaje_anillo_externo   = round((total_anillo_externo * 100 / total_general), 2)
+    porcentaje_anillo_medio     = round((total_anillo_medio * 100 / total_general), 2)
+    porcentaje_anillo_interno   = round((total_anillo_interno * 100 / total_general), 2)
+
+    # Dibujamos la gráfica con los porcentajes:
+    dibujar_grafica_porcentaje(porcentaje_anillo_externo, porcentaje_anillo_medio, porcentaje_anillo_interno)
+
+    
 if __name__ == '__main__':
     main()
