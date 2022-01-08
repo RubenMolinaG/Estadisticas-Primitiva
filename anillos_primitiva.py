@@ -94,7 +94,6 @@ def dibujar_grafica_porcentaje(anillo_externo: int, anillo_medio: int, anillo_in
     plt.grid('on')
 
     plt.show()
-    plt.savefig('Porcentaje_Aparicion_Anillos_Primitiva.png')
 
 # Función Principal:
 def main():
