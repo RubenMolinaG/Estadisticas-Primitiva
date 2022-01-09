@@ -29,6 +29,6 @@ diccionario_general_ordenado = ordenar_diccionario(diccionario_general)
 # --------------------------------------------------------------------------
 # Representamos graficamente el diccionario.
 # --------------------------------------------------------------------------
-# dibujar_grafica(diccionario_general_ordenado)
-# dibujar_grafica(diccionario_general)
-# dibujar_grafica_plot(diccionario_general)
+dibujar_grafica(diccionario_general_ordenado)
+dibujar_grafica(diccionario_general)
+dibujar_grafica_plot(diccionario_general)
