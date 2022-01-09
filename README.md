@@ -1,5 +1,5 @@
 # Estadísticas Primitiva.
-## Representación Gráfica de los Números de la Primitiva y sus apariciones:
+## Números de la Primitiva y sus Apariciones:
 **Sin ordenar**
 ![Visualizacion Numeros Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/img/Visualización_Números_Primitiva_Plot.png "Visualizacion Numeros Primitiva")
 
