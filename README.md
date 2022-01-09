@@ -17,7 +17,7 @@ Podemos dividir la matriz de la primitiva en 3 anillos:
 
 ![Visualizacion Anillos Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/img/Visualizacion_Anillos_Primitiva.png "Visualizacion Anillos Primitiva")
 
-## Representación Gráfica - Porcentaje de Aparición de Números en cada uno de los Anillos.
+## Porcentaje de Aparición de Números en cada uno de los Anillos.
 ![Visualizacion Porcentajes Anillos Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/img/Visualizacion_Porcentaje_Anillos_Primitiva.png "Visualizacion Porcentajes Anillos Primitiva")
 
 
