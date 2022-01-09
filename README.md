@@ -1,8 +1,10 @@
 # Estadísticas Primitiva.
 ## Representación Gráfica de los Números de la Primitiva y sus apariciones:
 ** Sin ordenar **
+![Visualizacion Numeros Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/img/Visualización_Números_Primitiva_Plot.png "Visualizacion Numeros Primitiva")
 
-** De Mayor a Menos Aparición **
+** De Mayor a Menor Aparición **
+![Visualizacion Numeros Primitiva Ordenados](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/img/Visualización_Números_Primitiva_Ordenados.png "Visualizacion Numeros Primitiva Ordenados")
 
 ## Representación Gráfica de los Anillos.
 Podemos dividir la matriz de la primitiva en 3 anillos:
@@ -13,10 +15,10 @@ Podemos dividir la matriz de la primitiva en 3 anillos:
 - **Anillo Interno**:
     - _[22..27]_
 
-![Visualizacion Anillos Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/Visualizacion_Anillos_Primitiva.png "Visualizacion Anillos Primitiva")
+![Visualizacion Anillos Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/img/Visualizacion_Anillos_Primitiva.png "Visualizacion Anillos Primitiva")
 
 ## Representación Gráfica - Porcentaje de Aparición de Números en cada uno de los Anillos.
-![Visualizacion Porcentajes Anillos Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/Visualizacion_Porcentaje_Anillos_Primitiva.png "Visualizacion Porcentajes Anillos Primitiva")
+![Visualizacion Porcentajes Anillos Primitiva](https://raw.githubusercontent.com/RubenMolinaG/Estadisticas-Primitiva/main/img/Visualizacion_Porcentaje_Anillos_Primitiva.png "Visualizacion Porcentajes Anillos Primitiva")
 
 
 
